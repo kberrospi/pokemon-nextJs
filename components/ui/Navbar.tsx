@@ -1,11 +1,10 @@
-import { Link, Spacer, Text, useTheme } from "@nextui-org/react"
+import { Link, Spacer, Text } from "@nextui-org/react"
 import Image from "next/image";
 import logo from '../../public/pokeball.jpg'
 import NextLink from 'next/link'
 
 export const Navbar = () => {
 
-  const { theme } = useTheme();
 
   return (
     <div style={{
